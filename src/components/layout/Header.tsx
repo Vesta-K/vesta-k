@@ -3,9 +3,9 @@ import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 const menu = [
-  { path: "/vesta-k/", title: "Главная" },
-  { path: "/vesta-k/services", title: "Услуги" },
-  { path: "/vesta-k/about", title: "О нас" },
+  { path: "/", title: "Главная" },
+  { path: "/services", title: "Услуги" },
+  { path: "/about", title: "О нас" },
 ];
 
 export default function Header() {

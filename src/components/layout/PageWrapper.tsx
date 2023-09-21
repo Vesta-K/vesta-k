@@ -6,9 +6,9 @@ import About from "../pages/About";
 export default function PageWrapper() {
   return (
     <Routes>
-      <Route path="/vesta-k" element={<MainPage />} />
-      <Route path="/vesta-k/services" element={<Services />} />
-      <Route path="/vesta-k/about" element={<About />} />
+      <Route path="/" element={<MainPage />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/about" element={<About />} />
     </Routes>
   );
 }
