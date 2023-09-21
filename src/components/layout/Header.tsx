@@ -1,11 +1,11 @@
 import { Collapse, IconButton, Typography } from "@material-tailwind/react";
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-
+import { v4 as uuidv4 } from "uuid";
 const menu = [
-  { path: "/", title: "Главная" },
-  { path: "/services", title: "Услуги" },
-  { path: "/about", title: "О нас" },
+  { path: "/vesta-k/", title: "Главная" },
+  { path: "/vesta-k/services", title: "Услуги" },
+  { path: "/vesta-k/about", title: "О нас" },
 ];
 
 export default function Header() {
@@ -44,7 +44,7 @@ export default function Header() {
     <div className="flex flex-col w-full h-fit">
       <header className="h-20 bg-[#292E37] ">
         <div className="mx-auto h-full w-full max-w-[1290px] py-4 flex flex-row justify-between items-center px-4 xl:px-0">
-          <img src="/logo.svg" />
+          <img src="/images/logo.svg" />
           <div className="hidden lg:block">{contacts}</div>
           <IconButton
             variant="text"
@@ -96,7 +96,10 @@ export default function Header() {
         <ul className="mx-auto h-full w-full max-w-[1290px] flex flex-row px-4 xl:px-0 gap-10">
           {menu &&
             menu.map(({ path, title }) => (
-              <li className="font-primary h-full w-16 flex items-center justify-center hover:text-[#148B8A]">
+              <li
+                key={uuidv4()}
+                className="font-primary h-full w-16 flex items-center justify-center hover:text-[#148B8A]"
+              >
                 <NavLink
                   to={path}
                   className={({ isActive, isPending }) =>
