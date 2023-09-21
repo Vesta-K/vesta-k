@@ -10,6 +10,9 @@ export default withMT({
   ],
   theme: {
     extend: {
+      listStyleImage: {
+        checkmark: "url('images/checkmark.svg')",
+      },
       fontFamily: {
         primary: ["Inter"],
       },

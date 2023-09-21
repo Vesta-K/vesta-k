@@ -1,5 +1,5 @@
 import { Carousel, Typography } from "@material-tailwind/react";
-import sliderContent from "../../../content/sliderContent";
+import sliderContent from "../../../../content/sliderContent";
 import { v4 as uuidv4 } from "uuid";
 export default function Hero() {
   return (
