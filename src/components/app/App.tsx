@@ -10,9 +10,9 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/vesta-k/" element={<MainPage />} />
+        <Route path="/vesta-k/services" element={<Services />} />
+        <Route path="/vesta-k/about" element={<About />} />
       </Routes>
     </>
   );
