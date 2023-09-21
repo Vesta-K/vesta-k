@@ -44,7 +44,7 @@ export default function Header() {
     <div className="flex flex-col w-full h-fit">
       <header className="h-20 bg-[#292E37] ">
         <div className="mx-auto h-full w-full max-w-[1290px] py-4 flex flex-row justify-between items-center px-4 xl:px-0">
-          <img src="/images/logo.svg" />
+          <img src="./images/logo.svg" />
           <div className="hidden lg:block">{contacts}</div>
           <IconButton
             variant="text"
