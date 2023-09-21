@@ -1,6 +1,9 @@
+import firstImg from "../../public/images/sliderBackground/1(1).jpeg";
+import secondImg from "../../public/images/sliderBackground/1(2).jpeg";
+import thirtyImg from "../../public/images/sliderBackground/1(3).jpeg";
 const sliderContent = [
   {
-    img: "/images/sliderBackground/1(1).jpeg",
+    img: firstImg,
     title:
       "Профессиональный консалтинг в сфере госзакупок – с нами проще построить эффективный бизнес",
     description: [
@@ -9,7 +12,7 @@ const sliderContent = [
     ],
   },
   {
-    img: "/images/sliderBackground/1(2).jpeg",
+    img: secondImg,
     title: "Чем мы лучше конкурентов?",
     description: [
       "Мы работаем со сложными заказчиками",
@@ -19,7 +22,7 @@ const sliderContent = [
     ],
   },
   {
-    img: "/images/sliderBackground/1(3).jpeg",
+    img: thirtyImg,
     title:
       "Ваш бизнес связан с госзакупками, и Вы хотите увеличить обороты? Мы можем и готовы предложить взаимовыгодные условия!",
     description: [
