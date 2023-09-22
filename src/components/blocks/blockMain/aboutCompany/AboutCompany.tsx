@@ -1,4 +1,5 @@
 import { Typography } from "@material-tailwind/react";
+import bossPNG from "../../../../../public/images/boss.png";
 export default function AboutCompany() {
   return (
     <section className="rounded-xl w-full bg-white flex flex-col items-center  py-8 px-8 md:px-20">
@@ -8,11 +9,7 @@ export default function AboutCompany() {
       <hr className="border-2 w-1/4 md:w-1/12 max-w-[76px] mt-1 mb-5 md:mb-10 border-[#148B8A] "></hr>
       <div className="w-full">
         <div className="flex flex-col items-center w-full mb-10 md:float-left md:block md:w-auto md:mr-10">
-          <img
-            src="/images/boss.png"
-            className="mb-4 "
-            alt="Дирекктор Веста-К"
-          />
+          <img src={bossPNG} className="mb-4 " alt="Директор Веста-К" />
           <Typography
             as="h3"
             className="text-center text-[#148B8A] font-primary font-bold text-lg"

@@ -44,9 +44,9 @@ export default function Header() {
   return (
     <div className="flex flex-col w-full h-fit">
       <header className="h-20 bg-[#292E37] ">
-        <div className="mx-auto h-full w-full max-w-[1290px] py-4 flex flex-row justify-between items-center px-4 xl:px-0">
+        <div className="mx-auto h-full w-full max-w-[1290px] py-4 flex flex-row justify-between items-center px-4">
           <NavLink to="/vesta-k/">
-            <img src={logo} />
+            <img className="" src={logo} />
           </NavLink>
           <div className="hidden lg:block">{contacts}</div>
           <IconButton
@@ -96,7 +96,7 @@ export default function Header() {
         </Collapse>
       </header>
       <nav className="h-14 rounded-none border-none bg-white">
-        <ul className="mx-auto h-full w-full max-w-[1290px] flex flex-row px-4 xl:px-0 gap-10">
+        <ul className="mx-auto h-full w-full max-w-[1290px] flex flex-row px-4 gap-10">
           {menu &&
             menu.map(({ path, title }) => (
               <li

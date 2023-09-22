@@ -4,6 +4,7 @@ import Header from "../layout/Header";
 import About from "../pages/About";
 import Services from "../pages/Services";
 import MainPage from "../pages/mainPage";
+import Footer from "../layout/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/vesta-k/services" element={<Services />} />
         <Route path="/vesta-k/about" element={<About />} />
       </Routes>
+      <Footer />
     </>
   );
 }

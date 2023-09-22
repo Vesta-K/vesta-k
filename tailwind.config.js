@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 import withMT from "@material-tailwind/react/utils/withMT";
+import plugin from "tailwindcss";
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 
 export default withMT({
   content: [
@@ -18,5 +20,13 @@ export default withMT({
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addUtilites }) {
+      addUtilites({
+        ".my-rotate-y-180": {
+          transform: "rotateY(180deg)",
+        },
+      });
+    }),
+  ],
 });
