@@ -1,28 +1,35 @@
+import Fifth from "./componentsDescriptionOnServices/fifth";
+import First from "./componentsDescriptionOnServices/first";
+import Fourth from "./componentsDescriptionOnServices/fourth";
+import Second from "./componentsDescriptionOnServices/second";
+import Sixth from "./componentsDescriptionOnServices/sixth";
+import Third from "./componentsDescriptionOnServices/third";
+
 const servicesContent = [
   {
     title: "Комплексное тендерное сопровождение для поставщиков",
-    description: "1description",
+    description: <First />,
   },
   {
     title: "Консалтинг в сфере госзакупок по отдельным вопросам",
-    description: "2description",
+    description: <Second />,
   },
   {
     title: "Сопровождение заказчиков по 44-ФЗ и 223-ФЗ",
-    description: "3description",
+    description: <Third />,
   },
   {
     title: "Представительство и защита интересов в ФАС",
-    description: "4description",
+    description: <Fourth />,
   },
   {
     title: "Юридическое сопровождение участия в закупках",
-    description: "5description",
+    description: <Fifth />,
   },
   {
     title:
       "Настройка программного обеспечения для участия в электронных торгах",
-    description: "6description",
+    description: <Sixth />,
   },
 ];
 

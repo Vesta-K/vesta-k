@@ -10,13 +10,13 @@ const menu = [
 export default function Footer() {
   return (
     <div className="w-full bg-[#292E37]">
-      <div className="mx-auto h-full w-full max-w-[1290px] py-8 flex flex-col flex-wrap lg:flex-row justify-center items-center lg:justify-between lg:items-start gap-8 lg:gap-0 px-4 xl:px-0">
+      <div className="mx-auto h-full w-full max-w-[1290px] pt-8 flex flex-col flex-wrap lg:flex-row justify-center items-center lg:justify-between lg:items-start gap-8 lg:gap-0 px-4 xl:px-0">
         <nav className="basis-1/3 h-full px-4">
           <Typography
             as="a"
             className="font-primary text-[#148B8A] text-center lg:text-left text-xl font-normal"
           >
-            Навигация
+            Разделы
           </Typography>
           <ul className="flex flex-col items-center lg:items-start py-5 lg:py-10 gap-5">
             {menu &&

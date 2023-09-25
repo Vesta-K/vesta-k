@@ -20,7 +20,7 @@ export default function Header() {
   }, []);
 
   const contacts = (
-    <div className="flex flex-col p-5 gap-5 lg:flex-row lg:gap-10 items-center">
+    <div className="flex flex-col py-5 gap-5 lg:flex-row lg:gap-10 items-center">
       <Typography
         as="a"
         href="tel:89281831222"
