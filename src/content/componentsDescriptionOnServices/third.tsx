@@ -3,11 +3,13 @@ import { Typography } from "@material-tailwind/react";
 export default function Third() {
   return (
     <Typography as="div">
-      <Typography as={"p"} className="font-primary font-light">
-        ООО «Веста-К» с 2019 года предлагает консалтинг заказчикам, помогает
-        государственным и коммерческим структурам в соответствии с требованиями
-        законодательства успешно и результативно организовывать тендеры для
-        проведения закупок.
+      <div>
+        <Typography as={"p"} className="font-primary font-light">
+          ООО «Веста-К» с 2019 года предлагает консалтинг заказчикам, помогает
+          государственным и коммерческим структурам в соответствии с
+          требованиями законодательства успешно и результативно организовывать
+          тендеры для проведения закупок.
+        </Typography>
         <br />
         <br />
         <Typography
@@ -17,7 +19,7 @@ export default function Third() {
           Наши услуги по сопровождению заказчика включают следующее
           консультации:
         </Typography>
-      </Typography>
+      </div>
       <ul className="w-full px-4 py-4">
         <li className="list-image-checkmark list-inside font-primary">
           формирование и подписание документов о приёме товаров, работ, услуг;

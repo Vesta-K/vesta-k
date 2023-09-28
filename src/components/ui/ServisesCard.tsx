@@ -11,7 +11,7 @@ export default function ServicesCard({ serviceName }: { serviceName: number }) {
         {title}
       </Typography>
       <hr className="border-2 w-1/4 md:w-1/12 max-w-[76px] mt-1 mb-5 md:mb-10 border-[#148B8A] "></hr>
-      <Typography>{description}</Typography>
+      <div>{description}</div>
     </div>
   );
 }

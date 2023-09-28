@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 import logo from "../../../public/images/logo.svg";
+import ModalForm from "../ui/modal";
 const menu = [
   { path: "/vesta-k/", title: "Главная" },
   { path: "/vesta-k/services", title: "Услуги" },
@@ -10,6 +11,10 @@ const menu = [
 ];
 
 export default function Header() {
+  const [open, setOpen] = useState(false);
+
+  const handleOpen = () => setOpen(!open);
+
   const [openNav, setOpenNav] = useState(false);
 
   useEffect(() => {
@@ -35,9 +40,13 @@ export default function Header() {
       >
         tovesta-k@yandex.ru
       </Typography>
-      <button className="w-44 h-10 font-primary font-normal text-white bg-[#148B8A] rounded-md transition duration-200 hover:shadow-[0px_0px_10px_0px_#148B8A]">
+      <button
+        onClick={handleOpen}
+        className="w-44 h-10 font-primary font-normal text-white bg-[#148B8A] rounded-md transition duration-200 hover:shadow-[0px_0px_10px_0px_#148B8A]"
+      >
         Заказать звонок
       </button>
+      <ModalForm isOpen={open} onClose={handleOpen} />
     </div>
   );
 

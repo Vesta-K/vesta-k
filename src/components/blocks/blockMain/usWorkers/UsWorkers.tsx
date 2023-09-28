@@ -19,25 +19,6 @@ export default function UsWorkers() {
           />
         ))}
       </div>
-      {/* <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="w-full h-64"
-      >
-        <SwiperSlide className="bg-black">Slide 1</SwiperSlide>
-        <SwiperSlide className="bg-black">Slide 2</SwiperSlide>
-        <SwiperSlide className="bg-black">Slide 3</SwiperSlide>
-        <SwiperSlide className="bg-black">Slide 4</SwiperSlide>
-        <SwiperSlide className="bg-black">Slide 5</SwiperSlide>
-        <SwiperSlide className="bg-black">Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper> */}
     </section>
   );
 }
