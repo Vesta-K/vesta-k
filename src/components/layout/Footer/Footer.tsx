@@ -74,6 +74,7 @@ export default function Footer() {
             <div className="flex flex-row justify-center lg:justify-end  items-center w-full gap-2">
               <Typography
                 as="a"
+                href="../../public/docs/politika.pdf"
                 className=" text-center font-primary text-white transition duration-200 hover:text-[#148B8A]"
               >
                 Политика обработки персональных данных
@@ -96,6 +97,7 @@ export default function Footer() {
             <div className="flex flex-row w-full justify-center lg:justify-end items-center gap-2">
               <Typography
                 as="a"
+                href="../../public/docs/usersaccept.pdf"
                 className="text-right font-primary text-white transition duration-200 hover:text-[#148B8A]"
               >
                 Пользовательское соглашение

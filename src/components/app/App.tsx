@@ -4,7 +4,7 @@ import Header from "../layout/Header";
 import About from "../pages/About";
 import Services from "../pages/Services";
 import MainPage from "../pages/mainPage";
-import Footer from "../layout/Footer";
+import Footer from "../layout/Footer/Footer";
 
 function App() {
   return (

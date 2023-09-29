@@ -12,7 +12,7 @@ export default function MiniFormForServices({
         <svg
           viewBox="0 0 20 19"
           fill="none"
-          className="w-5"
+          className="w-5 animate-bounce"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
