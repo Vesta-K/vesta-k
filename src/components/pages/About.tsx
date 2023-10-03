@@ -34,7 +34,7 @@ export default function About() {
             href="https://yandex.ru/maps/-/CDUnJN9D"
             className="font-primary font-light text-gray-600 text-md text-center hover:text-[#148B8A] cursor-pointer"
           >
-            г.Ростов-на-Дону, ул. Социалистическая 150, офис 4.
+            г.Ростов-на-Дону, ул. Социалистическая 150, офис 3.
           </Typography>
         </div>
         <div className="sm:w-1/4 w-full min-w-[250px] p-7 h-[230px] bg-white rounded-xl flex flex-col items-center justify-between">

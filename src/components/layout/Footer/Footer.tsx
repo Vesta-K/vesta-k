@@ -59,7 +59,7 @@ export default function Footer() {
               href="https://yandex.ru/maps/-/CDUnJN9D"
               className="font-primary text-white text-center transition duration-200 hover:text-[#148B8A]"
             >
-              344006, г.Ростов-на-Дону, ул. Социалистическая 150, офис 4.
+              344006, г.Ростов-на-Дону, ул. Социалистическая 150, офис 3.
             </Typography>
           </div>
         </div>
